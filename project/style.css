@@ -1,0 +1,28 @@
+body {
+    background-image: url(img/5900173.jpg);
+    width: 3556px;
+    height: 2000px;
+}
+
+.menu {
+    height: 50px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.menu ul li a:hover {
+    color: blue;
+}
