@@ -1,49 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
-    <meta charset="UTF-8">
-    <title>workout</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap');
-
-    </style>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style_game.css">
 </head>
 
 <body>
-    <!--    <h1>Воркаут</h1>-->
-
-    <div class="menu">
-        <br>
-        <ul>
-           <li><a href="index.html">
-                    <h1>Главная</h1>
-                </a></li>
-            <li><a href="programs.html">
-                    <h1>Программы</h1>
-                </a></li>
-            <li><a href="klubs.html">
-                    <h1>Клубы</h1>
-                </a></li>
-            <li><a href="treners.html">
-                    <h1>Тренеры</h1>
-                </a></li>
-            <li><a href="kards.html">
-                    <h1>Клубные карты</h1>
-                </a></li>
-            <li><a href="studies.html">
-                    <h1>Студии</h1>
-                </a></li>
-            <li><a href="spa.html">
-                    <h1>SPA</h1>
-                </a></li>
-            <li><a href="sales.html">
-                    <h1>Акции</h1>
-                </a></li>
-        </ul>
+    <div id="gradient"></div>
+    <div id="page">
+        <div id="Message-Container">
+            <div id="message">
+                <h1>Поздравляем!</h1>
+                <p>Вы получаете скидку 5% на первое посещение</p>
+<!--                <p id="moves"></p>-->
+                <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!" />
+            </div>
+        </div>
+        <div id="menu">
+            <div class="custom-select">
+                <select id="diffSelect">
+                    <option value="10">Easy</option>
+                    <option value="15">Medium</option>
+                    <option value="25">Hard</option>
+                    <option value="38">Extreme</option>
+                </select>
+            </div>
+            <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
+        </div>
+        <div id="view">
+            <div id="mazeContainer">
+                <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+            </div>
+        </div>
     </div>
-    <hr>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+    <script src="qwe.js"></script>
 </body>
 
 </html>
