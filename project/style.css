@@ -1,0 +1,141 @@
+.menu {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a h1 {
+    text-decoration: none;
+    color: #00a8ff;
+    font-family: 'Montserrat';
+    font-size: 27.8px;
+    line-height: 62px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+hr {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.background_index {
+    background-image: url(img/fon.jpg);
+    background-size: cover;
+    flex: 1 0 auto;
+
+}
+
+.content_page {
+    background-image: url(img/sparks_408.png);
+    background-size: cover;
+    flex: 1 0 auto;
+}
+
+.footer_main {
+    background-image: url(img/fone.png);
+    background-size: cover;
+    flex: 0 0 auto;
+}
+
+.footer_main h3 {
+    margin-left: 30px;
+}
+
+.footer {
+    background-image: url(img/footer.png);
+    background-size: cover;
+    flex: 0 0 auto;
+}
+
+
+.footer h3 {
+    margin-left: 30px;
+}
+
+.couch {
+    width: 200px;
+    height: 350px;
+    background-color: bisque/*#00A8FF*/;
+}
+
+.trener_image {
+    display: block;
+    width: 100% !important;
+    max-width: 140px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.couch input {
+    background: #ff151e;
+    height: auto;
+    color: #fff;
+    box-shadow: none;
+    font-size: 14px;
+    width: 100px;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 1200px;
+    margin-left: 400px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.trener_text {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 15px;
+}
+
+.name h1{
+    font-family: 'Montserrat';
+    font-style: italic;
+    margin-left: 400px;
+    margin-top: 50px;
+    color: aquamarine;
+}
+
+input {
+    width: 50px;
+    color: black;
+}
+
+
+.program {
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+}
